@@ -1,0 +1,60 @@
+.delv img {
+    width: 100%;
+}
+
+.pick img {
+    width: 130%;
+}
+
+.b-search img {
+    width: 80%;
+}
+
+.delv img {
+    width: 130%;
+    margin-left: -2em !important;
+}
+
+.book-top {
+    display: inline-flex;
+}
+
+.web-page-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    height: 60px;
+    float: left;
+}
+
+.logo {
+    background-color: white;
+    width: 20%;
+}
+
+.logo p {
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: DFKai-sb;
+    font-weight: bold;
+    text-align: none;
+    text-decoration: none;
+}
+
+.date_btn:hover {
+   
+}
+.date_btn input{
+    border: 0;
+    /* color: #fff; */
+    border-radius: 10px;
+    width: 20%;
+    cursor: pointer
+}

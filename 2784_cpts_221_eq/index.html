@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Spicemystery a Hotel and Resturant Category Flat Bootstarp Responsive Website Template | Home :: w3layouts
+	</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Spicemystery Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.min.js"></script>
+	<!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+	<script src="js/simpleCart.min.js"> </script>
+	<link rel="stylesheet" href="./css/me.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<!-- header -->
+	<div class="head-top">
+
+	</div>
+	<div class="header">
+
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6k5zjILLRojWpt0Sr3WSZh9n87Y3ecKNyAA&usqp=CAU" class="img-responsive" alt="">
+					<p id="logo">
+						宜大學學生版
+					</p>
+				</a>
+			</div>
+			<div class="header-left">
+				<div class="head-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><a href="index.html">首頁</a></li>
+						<li><a href=" resturants.html">內容</a></li>
+						<li><a href="login.html">介紹</a></li>
+						<li><a href=" contact.html">登入</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+					<!-- script-for-nav -->
+					<script>
+						$("span.menu").click(function () {
+							$(".head-nav ul").slideToggle(300, function () {
+								// Animation complete.
+							});
+						});
+					</script>
+					<!-- script-for-nav -->
+				</div>
+				<!-- <div class="header-right1">
+					<div class="cart box_1">
+						<a href="checkout.html">
+							<h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity"
+									class="simpleCart_quantity"> 0 </span> items)<img src="images/bag.png" alt=""></h3>
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">empty card</a></p>
+						<div class="clearfix"> </div>
+					</div>
+				</div> -->
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- header -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="b_room">
+				<div class="booking_room"><br />
+					<div class="reservation">
+						<div class="book-top">
+							<div class="b-search">
+								<!-- <div class="boo-lef">
+									<i class="sear"></i>
+									<p>Search</p>
+								</div> -->
+								<img src="./images/balloons.png" alt="">
+							</div>
+							<div class="b-search">
+								<!-- <div class="boo-lef">
+									<i class="sear"></i>
+									<p>Search</p>
+								</div> -->
+								<img src="./images/bike.png" alt="">
+							</div>
+							<div class="pick">
+								<!-- <div class="boo-lef">
+									<i class="sele"></i>
+									<p>Pick</p>
+								</div> -->
+								<img src="data:image/png;base64,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" alt="">
+							</div>
+							<div class="delv">
+								<!-- <div class="boo-lef">
+									<i class="ca-r"></i>
+									<p>Delivered</p>
+								</div> -->
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIZqZsaSkJjmEN5ksiwF_TKtewxozyXznrQ&usqp=CAU" alt="">
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<ul>
+							<li class="span1_of_1">
+								<!----------start section_room----------->
+								<form>
+									<input type="text" class="textbox" value="名稱" onFocus="this.value = '';"
+										onBlur="if (this.value == '') {this.value = 'Resturant Name';}">
+								</form>
+							</li>
+							<li class="span1_of_1">
+								<!----------start section_room----------->
+								<div class="section_room">
+									<!-- <select id="country" onChange="change_country(this.value)"
+										class="frm-field required">
+										<option value="null">home</option>
+										<option value="null">popular areas</option>
+										<option value="AX">Maroubra</option>
+										<option value="AX">Ultimo</option>
+									</select> -->
+									<p>口感:</p>
+									<div class="date_btn">
+											<input type="submit" value="清淡">
+											<input type="submit" value="普通">
+											<input type="submit" value="太鹹">
+											<input type="submit" value="太油">
+									</div>
+									<p>說明:</p>
+									<input type="text">
+								</div>
+							</li>
+							<li class="span1_of_3">
+								<div class="date_btn">
+									<form action="resturants.html">
+										<input type="submit" value="Find resturants">
+									</form>
+								</div>
+							</li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 諮詢 -->
+	<div>
+		<div class="web-page-information">
+			<p>
+				2022新年快樂
+			</p>
+		</div>
+	</div>
+	<!-- banner -->
+	<!-- <div class="copyrights">Collect from <a href="https://www.webmoban.net" >免费网站模板</a></div> -->
+	<!-- latis -->
+	<!-- <div class="latis">
+		<div class="container">
+		<div class="col-md-4 latis-left">
+			<h3>Maecenas ornare enim</h3>
+			<img src="images/4.jpg" class="img-responsive" alt="">
+			<div class="special-info grid_1 simpleCart_shelfItem">
+				<p>Cum sociis natodiculus mus.rhoncus egestas ac sit </p>
+				<div class="cur">
+					<div class="cur-left">
+						<div class="item_add"><span class="item_price"><a class="morebtn hvr-rectangle-in" href="#">Add to cart</a></span></div>
+					</div>
+					<div class="cur-right">
+						<div class="item_add"><span class="item_price"><h6>only $45.00</h6></span></div>
+					</div>
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 latis-left">
+			<h3>Dis parturient montes</h3>
+			<img src="images/1.jpg" class="img-responsive" alt="">
+			<div class="special-info grid_1 simpleCart_shelfItem">
+				<p>Cum sociis natodiculus mus.rhoncus egestas ac sit </p>
+				<div class="cur">
+					<div class="cur-left">
+						<div class="item_add"><span class="item_price"><a class="morebtn hvr-rectangle-in" href="#">Add to cart</a></span></div>
+					</div>
+					<div class="cur-right">
+						<div class="item_add"><span class="item_price"><h6>only $55.00</h6></span></div>
+					</div>
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 latis-left">
+			<h3>Curabitur congue blandit</h3>
+			<img src="images/3.jpg" class="img-responsive" alt="">
+			<div class="special-info grid_1 simpleCart_shelfItem">
+				<p>Cum sociis natodiculus mus.rhoncus egestas ac sit </p>
+				<div class="cur">
+					<div class="cur-left">
+						<div class="item_add"><span class="item_price"><a class="morebtn hvr-rectangle-in" href="#">Add to cart</a></span></div>
+					</div>
+					<div class="cur-right">
+						<div class="item_add"><span class="item_price"><h6>only $65.00</h6></span></div>
+					</div>
+						<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+			<div class="clearfix"> </div>
+			
+				
+	</div>
+	</div> -->
+	<!-- latis -->
+	<!-- feature -->
+	<!-- <div class="feature">
+		<div class="container">
+			<div class="fle-xsel">
+				<ul id="flexiselDemo3">
+					<li>
+							
+									<img src="images/1p.jpg" class="img-responsive" alt="">		
+								
+					</li>
+					<li>
+							
+									<img src="images/2p.jpg" class="img-responsive" alt="">		
+								
+					</li>			
+					<li>
+							
+									<img src="images/3p.png" class="img-responsive" alt="">		
+								
+					</li>		
+					<li>
+							
+									<img src="images/4p.jpg" class="img-responsive" alt="">		
+								
+									
+					</li>
+					<li>
+							
+									<img src="images/5p.jpg" class="img-responsive" alt="">		
+								
+					</li>
+					<li>
+							
+									<img src="images/6p.jpg" class="img-responsive" alt="">		
+								
+					</li>
+					<li>
+							
+									<img src="images/7p.jpg" class="img-responsive" alt="">		
+								
+					</li>
+					<li>
+							
+									<img src="images/8p.jpg" class="img-responsive" alt="">		
+								
+					</li>
+									
+				</ul>
+							
+							 <script type="text/javascript">
+								$(window).load(function() {
+									
+									$("#flexiselDemo3").flexisel({
+										visibleItems: 8,
+										animationSpeed: 1000,
+										autoPlay: true,
+										autoPlaySpeed: 3000,    		
+										pauseOnHover: true,
+										enableResponsiveBreakpoints: true,
+										responsiveBreakpoints: { 
+											portrait: { 
+												changePoint:480,
+												visibleItems: 2
+											}, 
+											landscape: { 
+												changePoint:640,
+												visibleItems: 3
+											},
+											tablet: { 
+												changePoint:768,
+												visibleItems: 3
+											}
+										}
+									});
+									
+								});
+								</script>
+								<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+					<div class="clearfix"> </div>
+				
+			</div>
+		</div>
+	</div> -->
+	<!-- feature -->
+	<!-- magnust -->
+	<!-- <div class="magnust">
+		<div class="container">
+			<h3>Nascetur ridiculus mus</h3>
+		<div class="col-md-4 magnust-top">
+			
+			<div class="magnust-left">
+				<img src="images/9b.jpg" class="img-responsive" alt="">	
+			</div>
+			<div class="magnust-right">
+				<h4><a href="#">Cites of the</a></h4>
+				<p> Lorem Ipsum passage, and going through the cites of the undoubtable source. Lorem sections</p>
+				<a class="see" href="#">See More</a>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-4 magnust-top">
+			<div class="magnust-left">
+				<img src="images/8b.jpg" class="img-responsive" alt="">	
+			</div>
+			<div class="magnust-right">
+				<h4><a href="#">Lorem Ipsum</a></h4>
+				<p> Lorem Ipsum passage, and going through the cites of the undoubtable source. Lorem sections</p>
+				<a class="see" href="#">See More</a>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-4 magnust-top">
+			<div class="magnust-left">
+				<img src="images/10b.jpg" class="img-responsive" alt="">	
+			</div>
+			<div class="magnust-right">
+				<h4><a href="#">Will uncove</a></h4>
+				<p> Lorem Ipsum passage, and going through the cites of the undoubtable source. Lorem sections</p>
+				<a class="see" href="#">See More</a>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+			<div class="clearfix"> </div>
+	</div>
+	</div> -->
+	<!-- magnust -->
+	<!-- footer-->
+	<!-- <div class="footer">
+		<div class="container">
+			<div class="footer-left">
+				<p>Copyrights © 2015 SpiceMystery All rights reserved | More Templates <a href="https://www.webmoban.net" target="_blank" title="网站模板">网站模板</a> - Collect from <a href="https://www.webmoban.net" title="网页模板" target="_blank">网页模板</a></p>
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li><a href="#"><i class="fbk"></i></a></li>
+					<li><a href="#"><i class="googpl"></i></a></li>
+					<li><a href="#"><i class="link"></i></a></li>
+					<li><a href="#"><i class="rss"></i></a></li>
+					<li><a href="#"><i class="twt"></i></a></li>
+				</ul>
+			</div>	
+				<div class="clearfix"></div>
+		</div>
+	</div> -->
+	<!-- footer-->
+	
+</body>
+<script>
+	// $("#logo").on("mouseover",function(){
+	// 	$("#logo").css("text-decoration","none !important");
+	// })
+</script>
+<script src="./js/me.js"></script>
+</html>

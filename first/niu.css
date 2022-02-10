@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    
+}
+.maxbox{
+    width: 100%;
+}
+.maxpng{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #424d57; */
+    position: absolute;
+    z-index: -1;
+    margin-top: -3%;
+}
+.png1{
+    width: 100%;
+    height: 100vh;
+    /* height: 99.36vh; */
+    
+}
+.log{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: xx-large;
+    padding-top: 5%;
+    margin-top: -1.5;
+}
+
+.ulniuplay{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top:5%;
+}
+.niuplay{
+    display: inline;
+    padding: 1% 4%;
+    margin: 0.5%;
+    color: white;
+}
